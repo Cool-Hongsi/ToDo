@@ -1,0 +1,30 @@
+.todoList{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3rem;
+    display: flex;
+}
+
+.todoList .left{
+    width: 50%;
+}
+
+.todoList .right{
+    width: 50%;    
+}
+
+.btn-category{
+    width : 100%;
+}
+
+.btn-category .btn{
+    width: 15%;
+    margin: 5px;
+}
+
+.search{
+    text-align: center;
+    margin-top: 2rem;
+}

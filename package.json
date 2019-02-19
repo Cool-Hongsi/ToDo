@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "toto list",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./controller/server.js",
+    "view": "npm start --prefix view",
+    "dev": "concurrently \"npm run server\" \"npm run view\""
+  },
+  "author": "Sungjun Hong",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^1.2.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13"
+  }
+}
